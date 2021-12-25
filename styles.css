@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    margin: 0;
+    background-color: #0d1a2d;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    padding: 20px;
+    width: 270px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #15283f;
+}
+
+.equilibrium-card{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: #2fccd0;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.card p{
+    color: rgba(204, 204, 204, 0.753);
+    font-family: 'Outfit', sans-serif;
+}
+
+.eth-icontext{
+display: flex;
+justify-content: space-between;
+}
+
+.eth-icontext i{
+    color:#2fccd0;
+}
+
+.eth-icontext a{
+    color:#2fccd0;
+    font-family: 'Outfit', sans-serif;
+    padding: 5px;
+}
+
+
+hr{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.img-avatar{
+width: 40px;
+height: 40px;
+border: 1px solid white;
+border-radius: 30px;
+}
+
+
+
+.card h4{
+    color: rgba(204, 204, 204, 0.753);
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.card span{
+    color:#2fccd0;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.container-img-h4 div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 30px;
+}
